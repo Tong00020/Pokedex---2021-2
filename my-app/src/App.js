@@ -21,8 +21,9 @@ function App() {
 
     </div>
     <div id="divBusca">
-      <input placeholder="Nome" type="user" class="form"/>
-        <img src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-iacute-cone-de-pesquisa-by-vexels.png" id="btnBusca" alt="Buscar"width="26" height="25" />
+      <input type="text" class="foo" placeholder="Nome" class="form" />
+      <button className= "b" >CADASTRAR </button >
+        <img src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-iacute-cone-de-pesquisa-by-vexels.png" id="btnBusca" alt="Buscar"width="26" height="25" />     
       </div>
     </>
     
