@@ -1,0 +1,39 @@
+.navbar{
+  background-color: #EF4036;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.navbar-button{
+  margin-right: 25px;
+  background-color: transparent;
+  border: 0px;
+}
+
+#root{
+  background-color: #FEF4F3;
+}
+
+#divBusca{
+  align-items: center;
+  justify-content: 'center';
+  background-color:#2F4F4F;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+  padding-top: 0px;
+  height: 2rem;
+  margin: 3rem 5rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+}
