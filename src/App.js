@@ -3,23 +3,20 @@ import './App.css';
 
 function App() {
   return (
-    <>
+      
     <div className="navbar">
-        <img src="https://fontmeme.com/permalink/211011/31d884e190b6170404eac32eeef5676b.png" alt="fonte-de-pokemon" border="0"/>
+        <img src="https://fontmeme.com/permalink/211011/31d884e190b6170404eac32eeef5676b.png" alt="fonte-de-pokemon" border="0" height='60'/>
     
-      <div className="navbar-navigators">
-       <button className="navbar-button">
-          <img vclassName="navbar-button-image" alt="Buscar pokémons" src="/images/search.svg"/>
-       </button>
-
-        <button className="navbar-button">
-          <img vclassName="navbar-button-image" alt="Pokémons favoritados" src="/images/star.svg"/>
-        </button>
-
-        <button className="navbar-button">
-          <img vclassName="navbar-button-image" alt="Usuário" src="/images/user.svg"/>
-        </button>
-       </div>
+    <div className="navbar-navigators">
+      <button className="navbar-button">
+          <img vclassName="navbar-button-image" alt="Buscar pokémons" src="/images/search.svg" height='30'/>
+      </button>
+      <button className="navbar-button">
+          <img vclassName="navbar-button-image" alt="Pokémons favoritados" src="/images/star.svg" height='30'/>
+      </button>
+      <button className="navbar-button">
+          <img vclassName="navbar-button-image" alt="Usuário" src="/images/user.svg" height='30'/>
+      </button>
     </div>
 
     <h2>Buscador de pokémons</h2>
@@ -37,9 +34,10 @@ function App() {
       </div>
     </div>
     
-    <div id="pokemon-grid">
+      <div id="pokemon-grid">
+
      </div> 
-    </>
+    </div>
     
   );
 }
