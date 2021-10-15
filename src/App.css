@@ -41,10 +41,7 @@
 
 #divBusca-clickables{
   margin-right: 10px;
-  justify-content: center;
-  position:absolute;
-	left:32%;
-  
+  justify-content: center; 
 }
 
 input[type="text"]
