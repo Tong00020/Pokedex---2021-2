@@ -1,5 +1,6 @@
 👨‍💻Henrique 
   ◽Pseudo-elementos e responsidade da navbar
+  ◽ Re-size do pokemon-container
 
 👩‍💻Tong 
   ◽Página inicial

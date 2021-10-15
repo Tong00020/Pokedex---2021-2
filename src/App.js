@@ -37,8 +37,18 @@ function App() {
       </div>
     </div>
     
-      <div id="pokemon-grid"></div> 
+    <div id="pokemon-grid">
+      {/* Componente */}
+      <div className ="pokemon-container">
+        
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"/>
+      <div className="pokemon-description">
+        <a>Raichu</a>
+        <img src="/images/pokemonTypes/Eletric.png" height="15"/> 
       </div>
+    </div> 
+    </div> 
+  </div>
   );
 }
 

@@ -59,6 +59,35 @@ h2{
 }
 
 #pokemon-grid{
-  background: url("./assets/background1.png") no-repeat center;
+  background: url("./assets/background1.png") no-repeat center ;
+  background-position: top;
   height: 700px;
+  margin: 0px 95px;
+  display: grid;
+}
+
+.pokemon-container{
+  background: linear-gradient(#EF4036 70%, #ffffff 70% 100%);
+  border: 2px solid #EF4036;
+  border-radius: 20px;
+  width:  90px;
+  height: 125px;
+  position: relative;
+}
+
+.pokemon-description{ 
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 70%;
+  width: 100%;
+
+}
+.pokemon-description>a{
+  color: #F79A95;
+}
+.pokemon-description>img{
+  margin-left: 5px;
 }
