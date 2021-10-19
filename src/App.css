@@ -2,13 +2,22 @@
   background-color: #EF4036;
   display: flex;
   align-items: center;
-  padding: 3px 1px;
+  padding: 10px 30px;
+  position: relative;
   justify-content: space-between;
 }
 .navbar-button{
   margin-right: 25px !important
 }
 
+.navbar-button:hover, .navbar-button:focus{
+  opacity: 50%;
+  outline: none;
+}
+
+.navbar-button:active{
+  border-bottom: 2px solid #F79A95;
+}
 .navbar-button, .divBusca-button{
   margin-right: 0px;
   background-color: transparent;
@@ -34,6 +43,21 @@
   box-shadow: black ;
 }
 
+#divBusca>input:hover,#divBusca>input:focus{
+  text-decoration: underline rgba(0,0,0,56%);
+  outline: none;
+}
+
+#divBusca>input:active{
+  border-bottom: 2px solid #F79A95;
+}
+
+#divBusca-clickables>button:focus, #divBusca-clickables>button:hover{
+  opacity: 70%;
+}
+#divBusca-clickables>button:active{
+  border-bottom: 1px solid rgba(0,0,0,56%);
+}
 .divBusca-icon{
   fill:black;
   opacity: 56%;
@@ -61,17 +85,20 @@ h2{
 #pokemon-grid{
   background: url("./assets/background1.png") no-repeat center ;
   background-position: top;
-  height: 700px;
-  margin: 0px 95px;
+  margin: 0px 400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap:1ch ;
+  row-gap: 2ch;
   display: grid;
+
 }
 
 .pokemon-container{
   background: linear-gradient(#EF4036 70%, #ffffff 70% 100%);
   border: 2px solid #EF4036;
   border-radius: 20px;
-  width:  90px;
-  height: 125px;
+  aspect-ratio: 90/125;
+  width:  135px;
   position: relative;
 }
 
@@ -90,4 +117,10 @@ h2{
 }
 .pokemon-description>img{
   margin-left: 5px;
+}
+
+.pokemon-container>img{
+  margin:auto;
+  height: 150px;
+  display: block;
 }
