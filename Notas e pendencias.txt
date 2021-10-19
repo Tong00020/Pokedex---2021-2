@@ -1,6 +1,10 @@
 👨‍💻Henrique 
-  ◽Pseudo-elementos e responsidade da navbar
-  ◽ Re-size do pokemon-container
+  ◽Pseudo-elementos🆗
+  ◽Re-size do pokemon-container🆗
+  ◽Responsidade do site
+  ◽Botão de Favoritar
+  ◽Bug de ficar rodando prompt() toda hora
+
 
 👩‍💻Tong 
   ◽Página inicial

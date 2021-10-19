@@ -51,7 +51,7 @@ function App() {
 
              {/* Componente */}
       <div className ="pokemon-container">
-        
+       
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"/>
         <div className="pokemon-description">
           <a>Raichu</a>
@@ -159,7 +159,13 @@ function App() {
         </div>
        </div> 
        {/*Componente */}
-    </div> 
+    </div>
+    <script>
+      function getUsername(){
+        prompt("Insira nome de usuário")
+      }
+      window.onload = getUsername
+    </script>
   </div>
   );
 }
