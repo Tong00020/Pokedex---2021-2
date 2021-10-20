@@ -160,14 +160,19 @@ function App() {
        </div> 
        {/*Componente */}
     </div>
+
     <script>
       function getUsername(){
-        prompt("Insira nome de usuário")
+         prompt("Insira nome de usuário")
       }
       window.onload = getUsername
     </script>
+  
   </div>
+  
   );
+
+  
 }
 
 export default App;
