@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const Pokemon = ({thisPokemon}) =>{
 
-    const [onePokemon,setOnePokemon] = useState({
+    const [pokemon, setPokemon] = useState({
         name: "",
         sprites:{
             front_default:""
@@ -13,9 +13,9 @@ const Pokemon = ({thisPokemon}) =>{
 
       const getPokemon = (url)=>{
         axios.get(url)
-        .then ((Response)=>{
-          console.log(Response);
-          setOnePokemon(Response.data);
+        .then ((response)=>{
+          console.log(response);
+          setPokemon(response.data);
         })
         .catch((err)=>{
           console.log(err)
@@ -29,8 +29,8 @@ const Pokemon = ({thisPokemon}) =>{
     
     return(
         <div>
-            <p>{onePokemon.name}</p>
-            <img url = {onePokemon.sprites.front_default}></img>
+            <p>{pokemon.name}</p>
+            <img url = {pokemon.sprites.front_default}></img>
         </div>
     )
 

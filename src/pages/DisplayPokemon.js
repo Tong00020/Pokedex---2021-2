@@ -1,16 +1,15 @@
 import React from "react";
 import Pokemon from "./Pokemon";
 
-const DisplayPokemon = ({thisPokemon}) => {
+const DisplayPokemon = ({pokemon}) => {
     return (
-        <div>
-            {
-                thisPokemon.map((val,idx)=>{
+        <div>{
+                pokemon.map((val, idx)=>
                     //console.log('test');
-                    <Pokemon key={val} thisPokemon={val}/>
+                    <Pokemon key={idx}  thisPokemon={val}/>
 
-                })
-            }
+                )
+        }
         </div>
     )
 }
