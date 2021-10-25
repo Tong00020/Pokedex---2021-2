@@ -13,7 +13,7 @@ import DisplayPokemon from './pages/DisplayPokemon';
 
 function App() {
 
-
+{/*
   const [pokemon,setPokemon] = useState({
     name:"bulbasaur", url:"http://pokeapi.co/api/v2/pokemon/1/"
   })
@@ -33,7 +33,7 @@ function App() {
   
   useEffect(()=>{
     get20Pokemon();
-  })
+  })*/}
 
   return(
   /*<Router>
@@ -271,7 +271,7 @@ function App() {
     }
     window.onload = getUsername
   </script> }
-  <DisplayPokemon pokemon={pokemon}/>
+  {/*<DisplayPokemon pokemon={pokemon}/>*/}
 </div>
 
 
