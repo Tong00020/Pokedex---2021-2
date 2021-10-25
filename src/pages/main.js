@@ -1,4 +1,7 @@
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import './main.css';
+
 
 function Main(){
        return (
@@ -227,10 +230,9 @@ function Main(){
             </script> */}
           
           </div>
-          
+
           );
         
-          
 }
     
 

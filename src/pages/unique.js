@@ -19,7 +19,6 @@ function Unique(){
                 </button>
               </div>
             </div>
-
             
 
             <h1>Gyarados</h1>
